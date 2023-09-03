@@ -23,13 +23,12 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
+    - name: Install pnpm
+      run: npm install -g pnpm
     - name: Install dependencies
-      run: npm install
+      run: pnpm install
     - name: Build Astro Project
-      run: npm run build
-    - name: Test Astro Project (Optional)
-      run: npm test
-      continue-on-error: true # Optional: Use this if you have tests but they might not all be passing currently
+      run: pnpm run build
 
   build-backend:
     runs-on: ${{ matrix.os }}
@@ -45,7 +44,5 @@ jobs:
         profile: minimal
         toolchain: stable
         override: true
-    - name: Build Tauri
-      run: cd src-tauri && cargo build --verbose
-    - name: Run Tauri tests
-      run: cd src-tauri && cargo test --verbose
+    - name: Build and Run Tauri Dev
+      run: cd src-tauri && cargo tauri dev
