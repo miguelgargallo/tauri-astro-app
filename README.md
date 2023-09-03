@@ -12,4 +12,4 @@ This template should help get you started developing with Tauri 1.8, Astro 3 and
 
 ## License
 
-Pylar AI Creative ML Free License, allow you to make money, do what you want, is bettet than MIT, go ahead and eat the world!!!
+Pylar AI Creative ML Free License, allows you to make what you want with the code under the condition of mention the original author <3 Support Devs 4 Devs by Devs with <3. Peace.
