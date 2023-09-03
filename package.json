@@ -1,5 +1,5 @@
 {
-  "name": "tauri-astro-app",
+  "name": "astro-tauri-app",
   "private": false,
   "version": "0.0.3a",
   "type": "module",
