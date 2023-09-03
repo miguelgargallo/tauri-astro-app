@@ -13,7 +13,7 @@ astro-tauri-app
 tauri-astro
 astro-tauri
 
-For security reasons, the npm packages are published yet, and you can use them locally, just clone this repo and run `npm install` in the root folder, then `pnpm run build` and `cargo tauri dev` to start the app.
+For security reasons, the npm packages are published yet, and you can use them locally, just clone this repo and run `pnpm install`, in the root folder, then `pnpm run build` and then `cargo tauri dev` to start the app.
 
 ## Recommended IDE Setup
 
