@@ -44,5 +44,7 @@ jobs:
         profile: minimal
         toolchain: stable
         override: true
+    - name: Install Tauri CLI
+      run: cargo install tauri-cli --version ^1.0.0-beta --force
     - name: Build and Run Tauri Dev
       run: cd src-tauri && cargo tauri dev
