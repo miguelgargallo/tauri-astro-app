@@ -1,7 +1,7 @@
 {
   "name": "tauri-astro",
   "private": false,
-  "version": "0.0.3a",
+  "version": "0.0.3b",
   "type": "module",
   "scripts": {
     "dev": "astro dev",
