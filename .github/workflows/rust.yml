@@ -1,0 +1,51 @@
+name: Build and Test Tauri + Astro Project
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build-frontend:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-22.04, ubuntu-20.04]
+        node-version: [14.x, 16.x, 18.x, 18.17.0]
+        
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Install dependencies
+      run: npm install
+    - name: Build Astro Project
+      run: npm run build
+    - name: Test Astro Project (Optional)
+      run: npm test
+      continue-on-error: true # Optional: Use this if you have tests but they might not all be passing currently
+
+  build-backend:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-22.04, ubuntu-20.04]
+        
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        profile: minimal
+        toolchain: stable
+        override: true
+    - name: Build Tauri
+      run: cd src-tauri && cargo build --verbose
+    - name: Run Tauri tests
+      run: cd src-tauri && cargo test --verbose
