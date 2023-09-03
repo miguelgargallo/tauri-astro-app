@@ -2,7 +2,7 @@
 
 ¿What if the god of perfect language, Rust, and the god of the web, Typescript, had a baby? Well, this is it, Tauri + Astro, the perfect combination to make the web a whole new world.
 
-![Tauri 1.8 + Astro 3](./public/Screenshot.png)
+![Tauri 1.8 + Astro 3](https://raw.githubusercontent.com/miguelgargallo/tauri-astro-app/main/public/Screenshot.png)
 
 This template should help get you started developing with Tauri 1.8, Astro 3 and TypeScript in the most amazing agnostic place, the TRUE WEB IS HERE.
 
