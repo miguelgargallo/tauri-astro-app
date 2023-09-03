@@ -2,7 +2,7 @@
 
 ¿What if the god of perfect language, Rust, and the god of the web, Typescript, had a baby? Well, this is it, Tauri + Astro, the perfect combination to make the web a whole new world.
 
-`pnpm install ` [tauri-astro-app](https://www.npmjs.com/package/tauri-astro-app) - [astro-tauri-app](https://www.npmjs.com/package/astro-tauri-app)  [tauri-astro](https://www.npmjs.com/package/tauri-astro) - [astro-tauri](https://www.npmjs.com/package/astro-tauri)
+`pnpm install` [tauri-astro-app](https://www.npmjs.com/package/tauri-astro-app) - [astro-tauri-app](https://www.npmjs.com/package/astro-tauri-app)  [tauri-astro](https://www.npmjs.com/package/tauri-astro) - [astro-tauri](https://www.npmjs.com/package/astro-tauri) then `cargo tauri dev` and enjoy :)
 
 ![Tauri 1.8 + Astro 3](https://raw.githubusercontent.com/miguelgargallo/tauri-astro-app/main/public/Screenshot.png)
 
