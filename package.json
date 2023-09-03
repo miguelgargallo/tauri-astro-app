@@ -1,0 +1,23 @@
+{
+  "name": "tauri-astro-app",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.4.0",
+    "astro": "^3.0.7"
+  },
+  "devDependencies": {
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.2",
+    "@tauri-apps/cli": "^1.4.0"
+  }
+}
