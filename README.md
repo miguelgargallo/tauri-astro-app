@@ -38,4 +38,4 @@ That's it!
 
 ## License
 
-Pylar AI Creative ML Free License, allows you to make what you want with the code under the condition of mention the original author <3 Support Devs 4 Devs by Devs with <3. Peace.
+We use MIT License, so feel free to use this template and make your own apps, and if you want to contribute, you are welcome to do it.
