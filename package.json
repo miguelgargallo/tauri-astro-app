@@ -1,7 +1,7 @@
 {
   "name": "tauri-astro-app",
   "private": false,
-  "version": "1.0.5",
+  "version": "1.0.5.01",
   "Description": "¿What if the god of perfect language, Rust, and the god of the web, Typescript, had a baby? Well, this is it, Tauri + Astro, the perfect combination to make the web a whole new world.",
   "author": "Miguel Gargallo",
   "homepage": "https://github.com/miguelgargallo/tauri-astro-app",
