@@ -5,6 +5,7 @@
   "repository": {
     "url": "https://github.com/miguelgargallo/tauri-astro-app"
   },
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "astro dev",
