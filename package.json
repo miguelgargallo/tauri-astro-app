@@ -2,6 +2,9 @@
   "name": "tauri-astro-app",
   "private": false,
   "version": "0.0.4",
+  "repository": {
+    "url": "https://github.com/miguelgargallo/tauri-astro-app"
+  },
   "type": "module",
   "scripts": {
     "dev": "astro dev",
