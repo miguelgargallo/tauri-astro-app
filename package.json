@@ -11,6 +11,9 @@
     "url": "https://github.com/miguelgargallo/tauri-astro-app.git",
     "branch": "main"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
