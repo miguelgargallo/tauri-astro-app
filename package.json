@@ -1,8 +1,10 @@
 {
   "name": "tauri-astro-app",
-  "private": true,
   "version": "1.0.7",
   "Description": "¿What if the god of perfect language, Rust, and the god of the web, Typescript, had a baby? Well, this is it, Tauri + Astro, the perfect combination to make the web a whole new world.",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
