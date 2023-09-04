@@ -10,6 +10,28 @@ This template should help get you started developing with Tauri 1.8, Astro 3 and
 
 For security reasons, the npm packages are published yet, and you can use them locally, just clone this repo and run `pnpm install`, in the root folder, then `pnpm run build` and then `cargo tauri dev` to start the app.
 
+## Steps to use pnpm
+
+First install pnpm globally
+
+```bash
+npm install -g pnpm
+```
+
+Then install the dependencies
+
+```bash
+pnpm install
+```
+
+Finally, run the app
+
+```bash
+cargo tauri dev
+```
+
+That's it!
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
