@@ -12,19 +12,19 @@ For security reasons, the npm packages are published yet, and you can use them l
 
 ## Steps to use pnpm
 
-Step 1 If you did not before, Install Tauri CLI
+Step 1: If you did not before, Install Tauri CLI
 
     cargo install create-tauri-app --locked
 
-Step 2 install pnpm globally
+Step 2: Install pnpm globally
 
     npm install -g pnpm
 
-Step 3 Then install the dependencies
+Step 3: Then install the dependencies
 
     pnpm install
 
-Step 4 Finally, run the app
+Step 4: Finally, run the app
 
     cargo tauri dev
 
