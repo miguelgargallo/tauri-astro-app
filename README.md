@@ -14,7 +14,9 @@ For security reasons, the npm packages are published yet, and you can use them l
 
 Step 1: If you did not before, Install Tauri CLI
 
+```bash
     cargo install create-tauri-app --locked
+```
 
 Step 2: Install pnpm globally
 
